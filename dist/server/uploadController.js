@@ -22,7 +22,7 @@ const router = express_1.default.Router();
 const upload = (0, multer_1.default)({ dest: 'uploads/' });
 // Middleware de CORS
 router.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', ' http://192.168.1.25:59315');
+    res.setHeader('Access-Control-Allow-Origin', ' http://192.168.1.25:3000');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     res.setHeader('Access-Control-Allow-Credentials', 'true');
